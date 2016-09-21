@@ -1,7 +1,7 @@
 {
   "name": "imdb-trivia",
   "version": "1.0.0",
-  "description": "A NodeJS library for fetching IMDB movie trivia data",
+  "description": "A NodeJS library for fetching IMDb movie trivia",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/jshint --exclude ./node_modules && ./node_modules/.bin/mocha --harmony -t 100000"
