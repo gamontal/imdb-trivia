@@ -1,0 +1,25 @@
+{
+  "name": "imdb-trivia",
+  "version": "1.0.0",
+  "description": "A NodeJS library for fetching IMDB movie trivia data",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jshint --exclude ./node_modules && ./node_modules/.bin/mocha --harmony -t 100000"
+  },
+  "keywords": [
+    "imdb",
+    "movies",
+    "trivia"
+  ],
+  "author": "Gabriel Montalvo",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  }
+}
